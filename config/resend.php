@@ -9,7 +9,7 @@
 
 // ─── Resend Credentials ─────────────────────────────────────────
 // Get your API key from https://resend.com/api-keys
-if (!defined('RESEND_API_KEY')) define('RESEND_API_KEY', 're_Zicwfxjn_Bobdt6fMTjEuVdcNazLSZCQX');
+//if (!defined('RESEND_API_KEY')) define('RESEND_API_KEY', 'TEMPEL API 1 DISINI');            
 if (!defined('RESEND_BASE_URL')) define('RESEND_BASE_URL', 'https://api.resend.com');
 
 // ─── Sender Configuration ────────────────────────────────────────

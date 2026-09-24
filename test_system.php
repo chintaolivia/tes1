@@ -69,7 +69,7 @@ runTest("Konfigurasi iPaymu Sandbox & Signature Generator", function() {
 // ─── Test 4: Resend Email Config & Templates ────────────────────
 runTest("Konfigurasi Resend API & Sender", function() {
     require_once __DIR__ . '/config/resend.php';
-    if (RESEND_API_KEY !== 're_Zicwfxjn_Bobdt6fMTjEuVdcNazLSZCQX') {
+    //if (RESEND_API_KEY !== 'TEMPEL API 2 DISINI WOI') {
         throw new Exception("Resend API Key tidak sesuai");
     }
     if (RESEND_FROM_NAME !== 'KopiKenangan' || RESEND_FROM_EMAIL !== 'noreply@shisuka.online') {
