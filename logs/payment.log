@@ -1,0 +1,87 @@
+2026-09-20 08:59:46 - Payment Callback: Array
+(
+    [reference] => SB2009263422
+    [status] => paid
+    [trx_id] => SIM-1789894786591
+    [csrf_token] => bcb9a039035a1d178215df9df41f93959088174c6b8daedf38f3981104c44054
+)
+
+2026-09-20 08:59:46 - Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list'
+2026-09-23 14:49:43 - Payment Callback: Array
+(
+    [reference] => SB230926F103
+    [status] => paid
+    [trx_id] => SIM-1790174983631
+    [csrf_token] => a7ec515172e1013ab022e7c0d0da05714934c53009cc842203e09a933a70c4a2
+)
+
+2026-09-23 15:13:42 - Payment Callback: Array
+(
+    [reference] => SB2309264458
+    [status] => paid
+    [trx_id] => SIM-1790176422013
+)
+
+2026-09-23 15:15:20 - Payment Callback: Array
+(
+    [reference] => SB2309264458
+    [status] => paid
+    [trx_id] => SIM-TEST
+)
+
+2026-09-23 16:16:58 - Payment Callback: Array
+(
+    [reference] => SB2309268FCD
+    [status] => paid
+    [trx_id] => SIM-1790180218054
+)
+
+2026-09-23 16:16:58 - Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list'
+2026-09-23 16:16:59 - Payment Callback: Array
+(
+    [reference] => SB2309268FCD
+    [status] => paid
+    [trx_id] => SIM-1790180219214
+)
+
+2026-09-23 16:16:59 - Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list'
+2026-09-24 03:54:34 - Payment Callback: Array
+(
+    [reference] => SB2409266DA7
+    [status] => paid
+    [trx_id] => SIM-1790222074809
+    [payment_method] => va_bca
+)
+
+2026-09-24 03:55:06 - Payment Callback: Array
+(
+    [reference] => SB2409266DA7
+    [status] => paid
+    [trx_id] => TEST-123
+    [payment_method] => va_bca
+)
+
+2026-09-24 03:55:28 - Payment Callback: Array
+(
+    [reference] => SB2409266DA7
+    [status] => paid
+    [trx_id] => TEST-123
+    [payment_method] => va_bca
+)
+
+2026-09-24 03:56:04 - Payment Callback: Array
+(
+    [reference] => SB2409266DA7
+    [status] => paid
+    [trx_id] => SIM-1790222164497
+    [payment_method] => va_bca
+)
+
+2026-09-24 03:59:40 - Payment Callback: Array
+(
+    [reference] => SB2409264DDF
+    [status] => paid
+    [trx_id] => SIM-1790222380942
+    [payment_method] => qris
+)
+

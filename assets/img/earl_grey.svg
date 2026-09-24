@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="teaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#fffbeb"/>
+      <stop offset="28%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#fffbeb" rx="16"/>
+  <path d="M 105 45 L 120 165 C 122 175, 178 175, 180 165 L 195 45 Z" fill="url(#teaGrad)" stroke="#e2e8f0" stroke-width="2"/>
+  <!-- Sea salt cream foam on top -->
+  <path d="M 105 45 Q 150 55 195 45 L 191 75 Q 150 85 109 75 Z" fill="#ffffff" opacity="0.95"/>
+  <circle cx="130" cy="62" r="1.5" fill="#d97706"/>
+  <circle cx="150" cy="65" r="1.5" fill="#d97706"/>
+  <circle cx="170" cy="60" r="1.5" fill="#d97706"/>
+  <line x1="165" y1="20" x2="140" y2="160" stroke="#78350f" stroke-width="6" stroke-linecap="round"/>
+</svg>
+

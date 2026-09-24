@@ -1,0 +1,32 @@
+{
+  "name": "Little Salt Bread Blok M - Order & POS",
+  "short_name": "Salt Bread",
+  "description": "Pesan Salt Bread artisan renyah gurih langsung dari HP Anda",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fffbeb",
+  "theme_color": "#d97706",
+  "icons": [
+    {
+      "src": "/assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/classic.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["food", "shopping"],
+  "lang": "id"
+}

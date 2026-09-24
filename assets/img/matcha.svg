@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="matchaCrust" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#84cc16"/>
+      <stop offset="50%" stop-color="#4d7c0f"/>
+      <stop offset="100%" stop-color="#365314"/>
+    </linearGradient>
+    <filter id="shadowM" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#f7fee7" rx="16"/>
+  <ellipse cx="150" cy="155" rx="100" ry="20" fill="#ecfccb" opacity="0.6"/>
+  <path d="M 60 120 C 60 85, 100 60, 150 60 C 200 60, 240 85, 240 120 C 240 145, 205 150, 150 150 C 95 150, 60 145, 60 120 Z" fill="url(#matchaCrust)" filter="url(#shadowM)"/>
+  <!-- Red bean paste inside opening -->
+  <ellipse cx="150" cy="98" rx="20" ry="8" fill="#7f1d1d"/>
+  <circle cx="143" cy="97" r="3.5" fill="#450a0a"/>
+  <circle cx="156" cy="98" r="4" fill="#450a0a"/>
+  <!-- Matcha powder dusting -->
+  <path d="M 90 95 C 115 80, 135 80, 155 90" stroke="#365314" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <polygon points="120,68 125,70 123,75 118,73" fill="#ffffff"/>
+  <polygon points="175,70 180,72 178,77 173,75" fill="#ffffff"/>
+</svg>
+

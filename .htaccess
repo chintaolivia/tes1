@@ -1,0 +1,42 @@
+# Little Salt Bread Blok M — Apache / Laragon Configuration
+
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Prevent direct directory listing
+    Options -Indexes
+
+    # Block access to sensitive directories and files
+    RewriteRule ^database/ - [F,L]
+    RewriteRule ^\.git - [F,L]
+    RewriteRule \.(sql|bak|log|ini|sh|bat)$ - [F,L]
+
+    # Clean URL routing: if requested file or dir doesn't exist, try adding .php
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php [L,QSA]
+</IfModule>
+
+# MIME Types for PWA & Modern Web Assets
+<IfModule mod_mime.c>
+    AddType application/manifest+json .webmanifest .json
+    AddType image/svg+xml .svg .svgz
+    AddType image/webp .webp
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Compression for static files
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+

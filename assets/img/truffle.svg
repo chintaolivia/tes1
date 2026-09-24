@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="truffleCrust" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="60%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+    <filter id="shadowT" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#fefce8" rx="16"/>
+  <ellipse cx="150" cy="155" rx="100" ry="20" fill="#fde68a" opacity="0.6"/>
+  <path d="M 60 120 C 60 85, 100 60, 150 60 C 200 60, 240 85, 240 120 C 240 145, 205 150, 150 150 C 95 150, 60 145, 60 120 Z" fill="url(#truffleCrust)" filter="url(#shadowT)"/>
+  <!-- Cheese melt oozing -->
+  <path d="M 120 90 C 130 110, 140 115, 150 90 C 160 115, 175 110, 180 92" stroke="#fbbf24" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Truffle bits -->
+  <circle cx="125" cy="85" r="2.5" fill="#1c1917"/>
+  <circle cx="140" cy="75" r="3" fill="#292524"/>
+  <circle cx="160" cy="80" r="2.5" fill="#1c1917"/>
+  <circle cx="175" cy="85" r="3" fill="#292524"/>
+  <polygon points="135,68 140,70 138,75 133,73" fill="#ffffff"/>
+  <polygon points="165,70 170,72 168,77 163,75" fill="#ffffff"/>
+</svg>
+
